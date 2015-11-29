@@ -3,7 +3,7 @@
 using namespace std;
 
 int main (int, char*[]) {
-  cout << "program finished." << endl;
+  cout << "1st project for Travis CI." << endl;
 
   char pauseScreen;
   cin >> pauseScreen;
