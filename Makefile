@@ -1,6 +1,6 @@
 
 all:
-	(CXX) -std=c++11 -Wall -Wextra example.cpp -o example
+	$(CXX) -std=c++11 -Wall -Wextra example.cpp -o example
 
 test:
 	 ./example || exit 1
